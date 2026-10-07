@@ -1,0 +1,10 @@
+torch>=2.2
+torchvision>=0.17
+torchxrayvision>=1.3
+streamlit>=1.52
+scikit-learn
+scikit-image
+pandas
+matplotlib
+pillow
+kagglehub   # optional, only for --nih

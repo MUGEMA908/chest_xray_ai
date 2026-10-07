@@ -1,0 +1,9 @@
+{
+ "best": 0.562856912612915,
+ "lo": 0.46285691261291506,
+ "hi": 0.662856912612915,
+ "n_normal": 15,
+ "n_pneumonia": 60,
+ "source": "GitHub open X-ray collection (bundled)",
+ "ms_per_image": 358.9183807373047
+}

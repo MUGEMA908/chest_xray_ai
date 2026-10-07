@@ -1,0 +1,8 @@
+file,kind,n,dataset_label
+normal_1.jpg,Normal,1,Normal
+normal_2.jpg,Normal,2,Normal
+normal_3.jpg,Normal,3,Normal
+pneumonia_1.jpg,Pneumonia,1,Pneumonia
+pneumonia_2.jpg,Pneumonia,2,Pneumonia
+pneumonia_3.jpg,Pneumonia,3,Pneumonia
+pneumonia_4.jpg,Pneumonia,4,Pneumonia

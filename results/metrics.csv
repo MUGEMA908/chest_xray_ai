@@ -1,0 +1,5 @@
+score,threshold,AUROC,accuracy,precision,recall,specificity,F1,TP,FP,TN,FN
+Pneumonia output only,0.50,0.741,0.56,0.966,0.467,0.933,0.629,28,1,14,32
+Pneumonia output only,0.43 (best),0.741,0.573,0.967,0.483,0.933,0.644,29,1,14,31
+Combined pneumonia signs,0.50,0.906,0.84,0.875,0.933,0.467,0.903,56,8,7,4
+Combined pneumonia signs,0.56 (best),0.906,0.827,0.98,0.8,0.933,0.881,48,1,14,12

@@ -1,0 +1,59 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Chest X-ray app",
+			"type": "shell",
+			"command": "C:/Users/USER/AppData/Local/Programs/Python/Python314/python.exe -m streamlit run app.py --server.headless true --server.port 8501",
+			"args": [],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Validate app syntax",
+			"type": "shell",
+			"command": "C:/Users/USER/AppData/Local/Programs/Python/Python314/python.exe -m py_compile app.py",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Discover Streamlit docs",
+			"type": "shell",
+			"command": "C:/Users/USER/AppData/Local/Programs/Python/Python314/python.exe C:/Users/USER/.agents/skills/developing-with-streamlit/scripts/discover.py --project-dir C:/Users/USER/Documents/chest_xray_ai",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Check tab API",
+			"type": "shell",
+			"command": "C:/Users/USER/Documents/chest_xray_ai/.venv/Scripts/streamlit.exe docs st.tabs",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Compile app and translations",
+			"type": "shell",
+			"command": "C:/Users/USER/Documents/chest_xray_ai/.venv/Scripts/python.exe -m py_compile app.py i18n.py",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Run updated X-ray app",
+			"type": "shell",
+			"command": "C:/Users/USER/Documents/chest_xray_ai/.venv/Scripts/python.exe -m streamlit run app.py --server.headless true --server.port 8502",
+			"args": [],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
