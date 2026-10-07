@@ -8,4 +8,4 @@ scikit-image
 pandas
 matplotlib
 pillow
-kagglehub   # optional, only for --ni
+
